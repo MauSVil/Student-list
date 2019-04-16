@@ -1,0 +1,41 @@
+.Card-Container{
+    padding-top: 20px;
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.Card{
+    height: 300px;
+    color: black;
+    background:#f3eaeadb;
+    border-radius: 10%;
+}
+
+.Avatar{
+    height: 150px;
+}
+
+.Card h2,
+.Card h3{
+    margin: 0;
+    padding: 0;
+}
+
+.Card h2{
+    margin-top: 20px;
+}
+
+.close-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: -285px;
+    right: -117px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ada7a9e6;
+    cursor: pointer;
+}

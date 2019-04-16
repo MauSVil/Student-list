@@ -1,0 +1,11 @@
+.Body{
+    background: #282c34;
+    min-height: 95vh;
+    color: white;
+    display: flex;
+}
+
+.Body h1{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,45 @@
+.Form-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 95vh;
+    background: #282c34;
+}
+
+form{
+    display: grid; 
+    height: 180px;
+    align-self: center;
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #FFF, #a2b3a233);
+    padding: 40px 20px;
+    border-radius: 10%;
+    
+}
+
+form label{
+    margin-top: 10px;
+}
+
+form input{
+    border-radius: 10%;
+    width: 80%;
+    justify-self: center;
+    text-align: center;
+}
+
+.form-button{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10%;
+    background:rgba(75, 216, 75, 0.48);
+    width: 50%;
+    justify-self: center;
+}
+
+select{
+    margin-top: 10px;
+    width: 50%;
+    justify-self: center;
+}

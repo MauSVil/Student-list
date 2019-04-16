@@ -1,0 +1,27 @@
+.List-data{
+    min-height: 95vh;
+    background: #282c34;
+}
+
+.List-data p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.List-characters{
+    color: white;
+    display: grid;
+    grid-gap: 30px;
+    padding: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.Card-Container{
+    min-height: 95vh;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

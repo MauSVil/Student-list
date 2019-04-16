@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+    height: 5vh;
+}
+
+.Link{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
